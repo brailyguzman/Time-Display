@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Kanit:wght@700&family=Open+Sans:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+$primary-font: 'Open Sans', sans-serif; 
+$time-font: 'Carter One', cursive;
+$header-font: 'Kanit', sans-serif;
+
+body {
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    
+    .header-container {
+        background-color: rgba(255, 255, 255, 0.3);
+        padding: 15px;
+
+        #header-title {
+            text-align: center;
+            font-family: $header-font;
+            font-size: 40px;
+        }
+    }
+    
+    .time-container {
+        margin-top: 50px;
+        font-family: $time-font;
+        display: flex;
+        text-shadow: 2px 2px white;
+        justify-content: center;
+        font-size: 80px;
+        
+    }
+
+    .timezone-container {
+        font-family: $primary-font;
+        display: flex;
+        justify-content: center;
+
+        #timezone {
+            font-size: 25px;
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            padding: 5px;
+            border-radius: 5px;
+        }
+    }
+}
