@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+    displayTime();
     setInterval(displayTime, 1000)
 })
 
